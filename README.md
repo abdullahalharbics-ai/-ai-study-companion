@@ -15,7 +15,7 @@ A small tool that ingests my course PDFs/slides and answers questions via Retrie
 
 ## Milestones & Timeline
 - **Sep 13–15, 2025:** Kickoff complete (repo, README, plan). ← **THIS SUBMISSION**
-- **Sep–Oct 2025 (Phase 0):** Python foundations (KKUx) to prep.
+- **Sep–Oct 2025 (Phase 0):** Python foundations  to prep.
 - **Oct–Nov 2025:** Build MVP in a notebook → then move to app.
 - **Dec 2025–Feb 2026:** Add UI (Streamlit), summaries/flashcards, polish docs.
 - **Later:** Deploy demo; write 1 technical post summarizing lessons.
