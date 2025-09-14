@@ -1,30 +1,28 @@
-# -ai-study-companion
-# AI Study Companion (Portfolio Project 1)
+# AI Study Companion (RAG for PDFs)
 
-## Purpose
-A small tool that ingests my course PDFs/slides and answers questions via Retrieval-Augmented Generation (RAG). It helps me study faster for SEU/KKU + the AI diploma and serves as a resume-ready project.
+A lightweight tool that ingests my lecture PDFs/slides and answers questions in natural language.
 
-## Scope
-**In:** PDF ingestion, text chunking, embeddings, vector store, simple Q&A; basic UI.  
-**Out (for now):** multi-user accounts, databases beyond local, speech features, complex design.
+## 🎯 Objectives
+- **MVP:** Upload PDF → ask a question → get an accurate answer with sources.
+- **Stretch:** Auto-summaries + flashcards + simple UI (Streamlit).
 
-## Objectives & Success
-- **MVP (Oct–Nov 2025):** Upload PDF → ask question → get grounded answer.  
-- **Accuracy:** ≥80% correct on my own slides/questions.  
-- **DX:** Clear README + setup steps so another student can run it.
+## 🗂 In Scope / Out of Scope
+**In:** Python, local RAG (embeddings + vector store), PDFs, single-user.  
+**Out:** Auth, multi-user SaaS, fancy UI, voice.
 
-## Milestones & Timeline
-- **Sep 13–15, 2025:** Kickoff complete (repo, README, plan). ← **THIS SUBMISSION**
-- **Sep–Oct 2025 (Phase 0):** Python foundations  to prep.
-- **Oct–Nov 2025:** Build MVP in a notebook → then move to app.
-- **Dec 2025–Feb 2026:** Add UI (Streamlit), summaries/flashcards, polish docs.
-- **Later:** Deploy demo; write 1 technical post summarizing lessons.
+## ✅ Success Criteria
+- ≥80% correct on my course slides (manual spot-check).
+- Repo has README + install steps + one demo screenshot.
+- Reproducible on a clean machine.
 
-## Tech Stack (initial)
-- **Python 3.11**, **LangChain** or **LlamaIndex**
-- **Embeddings:** `sentence-transformers/all-MiniLM-L6-v2` (local) or API
-- **Vector store:** **Chroma**
-- **PDF parsing:** `pypdf`
-- **UI:** **Streamlit** (simple), can be swapped to SP stack later
+## 🧰 Stack (initial)
+Python 3.11 · Jupyter · `langchain` · `chromadb` · `sentence-transformers` · `pypdf`  
+(Stretch UI: Streamlit)
 
-## Repo Layout (planned)
+## 📅 Timeline
+- **Phase 0 (Sep 14–Oct 26, 2025):**  Python course (foundations).
+- **Phase 1 (Oct 27–Nov 30, 2025):** MVP notebook (PDF → Q&A).
+- **Phase 2 (Dec 1, 2025–Feb 15, 2026):** UI + polish + docs.
+
+## 📦 Planned Structure
+
